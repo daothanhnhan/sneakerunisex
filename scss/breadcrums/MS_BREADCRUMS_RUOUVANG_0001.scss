@@ -1,0 +1,15 @@
+.gb-breadcrumbs_ruouvang{
+  background: url("../images/slide/slide2.jpg") no-repeat;
+  background-size: cover;
+  height: 250px;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .hero-title-breadcrums_ruouvang{
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 1px 1px 5px $color-1;
+    text-align: center;
+  }
+}

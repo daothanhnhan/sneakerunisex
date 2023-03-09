@@ -1,0 +1,29 @@
+.gb-video_sanpham_ruouvang{
+    .slider-for{
+        background: $color-white;
+        border: 1px solid $color-border;
+        @media screen and (min-width: 992px) {
+            height: 460px;
+            overflow: hidden;
+        }
+        img{
+            width: auto;
+            height: 316px;
+            margin: 0 auto;
+        }
+    }
+    .slide-item-nav{
+        border: 1px solid $color-border;
+        margin: 0 5px;
+        background: #f1f1f1;
+    }
+    .slider-nav{
+        margin-top: 10px;
+        .slide-item-nav{
+            background: $color-white;
+        }
+        img{
+            height: 130px;
+        }
+    }
+}
